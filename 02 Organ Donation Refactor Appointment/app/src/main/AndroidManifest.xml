@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pranjal.learning.organdonation">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".drawer_faq"></activity>
+        <activity android:name=".drawer_clicked" />
+        <activity android:name=".dashboard_doc" />
+        <activity android:name=".myAppointmentDr" />
+        <activity android:name=".myAppointments" />
+        <activity android:name=".timeSlots" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".my_requests" />
+        <activity android:name=".addDataDR" />
+        <activity android:name=".addDataR" />
+        <activity android:name=".addDataD" />
+        <activity android:name=".faq" />
+        <activity android:name=".search" />
+        <activity android:name=".doctor" />
+        <activity android:name=".recipient" />
+        <activity android:name=".donor" />
+        <activity android:name=".help" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

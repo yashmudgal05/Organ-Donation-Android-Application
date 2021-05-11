@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Doctor Profile"
+            android:id="@+id/nav_doctor">
+            <menu>
+                <item
+                    android:id="@+id/menu_doc_appointment"
+                    android:icon="@drawable/appointment_book"
+                    android:title="Scheduled appointments" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+
+</menu>

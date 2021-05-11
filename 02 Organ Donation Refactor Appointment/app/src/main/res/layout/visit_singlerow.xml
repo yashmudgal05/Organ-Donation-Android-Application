@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:androdi="http://schemas.android.com/apk/res/android"
+    androdi:layout_width="match_parent"
+    androdi:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    androdi:elevation="5dp"
+    app:cardUseCompatPadding="true" >
+
+    <LinearLayout
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:id="@+id/visit_mainLayout"
+        androdi:orientation="vertical">
+
+        <LinearLayout
+            androdi:layout_width="match_parent"
+            androdi:layout_height="wrap_content"
+            androdi:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                androdi:id="@+id/visit_image"
+                androdi:layout_width="120dp"
+                androdi:layout_height="120dp"
+                androdi:layout_gravity="center_horizontal|center_vertical"
+                androdi:layout_marginLeft="15dp"
+                androdi:foregroundGravity="center_vertical|clip_vertical"
+                androdi:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:orientation="vertical">
+
+                <TextView
+                    androdi:id="@+id/visit_name"
+                    androdi:layout_width="match_parent"
+                    androdi:layout_marginBottom="5dp"
+                    androdi:layout_height="wrap_content"
+                    androdi:layout_marginLeft="25dp"
+                    androdi:text="Name"
+                    androdi:textColor="#0F92FA"
+                    androdi:textSize="28sp" />
+
+                <TextView
+                    androdi:id="@+id/visit_speciality"
+                    androdi:layout_marginLeft="25dp"
+                    androdi:layout_width="match_parent"
+                    androdi:layout_height="wrap_content"
+                    androdi:text="Name"
+                    androdi:textColor="#000"
+                    androdi:textSize="22sp" />
+
+                <Button
+                    androdi:id="@+id/visit_bookAppointment"
+                    androdi:layout_gravity="end"
+                    androdi:layout_width="180dp"
+                    androdi:layout_marginTop="15dp"
+                    androdi:textSize="15sp"
+                    androdi:layout_height="wrap_content"
+                    androdi:background="@drawable/rounded_button"
+                    androdi:text="Book Appointment"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

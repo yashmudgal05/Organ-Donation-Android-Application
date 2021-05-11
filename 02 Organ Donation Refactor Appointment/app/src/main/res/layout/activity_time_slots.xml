@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timeSlots">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="692dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FA0606"
+            android:textSize="25sp"
+            android:text="*you can only select available\ntime slots"/>
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:columnCount="3"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/slot1"
+                android:accessibilityPaneTitle="slot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="9:00-9:50\navailable"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/slot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="10:00-10:50\navailable"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/slot3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="11:00-11:50\navailable"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/slot4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="12:00-12:50\navailable"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/slot5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="2:00-2:50\navailable"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/slot6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="8sp"
+                android:gravity="center"
+                android:text="3:00-3:50\navailable"
+                android:textSize="20sp" />
+        </GridLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

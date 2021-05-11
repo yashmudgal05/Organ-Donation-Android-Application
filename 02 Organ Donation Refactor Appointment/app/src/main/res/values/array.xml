@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="organD">
+        <item>Organ to donate</item>
+        <item>Blood</item>
+        <item>Kidney</item>
+        <item>Bone marrow</item>
+        <item>Lung</item>
+        <item>Skin</item>
+    </string-array>
+
+    <string-array name="organR">
+        <item>Organ, you are looking for ?</item>
+        <item>Blood</item>
+        <item>Kidney</item>
+        <item>Bone marrow</item>
+        <item>Lung</item>
+        <item>Skin</item>
+    </string-array>
+
+    <string-array name="planets_array2" >
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+    
+</resources>

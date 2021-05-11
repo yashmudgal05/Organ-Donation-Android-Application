@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:androdi="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    androdi:layout_width="match_parent"
+    androdi:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    androdi:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:orientation="vertical">
+
+        <TextView
+            androdi:id="@+id/question"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="wrap_content"
+            androdi:layout_marginLeft="10dp"
+            androdi:layout_marginTop="5dp"
+            androdi:layout_marginRight="10dp"
+            androdi:text="TextView"
+            androdi:textColor="#0B0A0A"
+            androdi:textSize="24sp"
+            androdi:textStyle="bold" />
+
+        <TextView
+            androdi:id="@+id/answer"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="wrap_content"
+            androdi:layout_marginLeft="10dp"
+            androdi:layout_marginTop="5dp"
+            androdi:layout_marginRight="10dp"
+            androdi:text="TextView"
+            androdi:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

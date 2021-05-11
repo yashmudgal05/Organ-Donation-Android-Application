@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:androdi="http://schemas.android.com/apk/res/android"
+    androdi:layout_width="match_parent"
+    androdi:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    androdi:elevation="5dp"
+    app:cardUseCompatPadding="true" >
+
+    <LinearLayout
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:id="@+id/mainLayoutDr"
+        androdi:orientation="vertical">
+
+        <LinearLayout
+            androdi:layout_width="match_parent"
+            androdi:layout_height="wrap_content"
+            androdi:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                androdi:id="@+id/img1"
+                androdi:layout_width="95dp"
+                androdi:layout_height="95dp"
+                androdi:layout_gravity="center_horizontal|center_vertical"
+                androdi:layout_marginLeft="15dp"
+                androdi:foregroundGravity="center_vertical|clip_vertical"
+                androdi:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:orientation="vertical">
+
+                <LinearLayout
+                    androdi:layout_width="match_parent"
+                    androdi:layout_height="match_parent"
+                    androdi:orientation="horizontal">
+
+                    <TextView
+                        androdi:id="@+id/textView7"
+                        androdi:layout_width="120dp"
+                        androdi:layout_height="wrap_content"
+                        androdi:layout_marginLeft="15dp"
+                        androdi:text="Name:  "
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+
+                    <TextView
+                        androdi:id="@+id/nameText"
+                        androdi:layout_width="match_parent"
+                        androdi:layout_height="wrap_content"
+                        androdi:text="Name"
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    androdi:layout_width="match_parent"
+                    androdi:layout_height="match_parent"
+                    androdi:orientation="horizontal">
+
+                    <TextView
+                        androdi:id="@+id/textView8"
+                        androdi:layout_width="120dp"
+                        androdi:layout_height="wrap_content"
+                        androdi:layout_marginLeft="15dp"
+                        androdi:text="UId:  "
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+
+                    <TextView
+                        androdi:id="@+id/uniqueIdText"
+                        androdi:layout_width="match_parent"
+                        androdi:layout_height="wrap_content"
+                        androdi:text="Unique"
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp"
+                        androdi:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    androdi:layout_width="match_parent"
+                    androdi:layout_height="match_parent"
+                    androdi:orientation="horizontal">
+
+                    <TextView
+                        androdi:id="@+id/textView9"
+                        androdi:layout_width="120dp"
+                        androdi:layout_height="wrap_content"
+                        androdi:layout_marginLeft="15dp"
+                        androdi:text="Speciality:  "
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+
+                    <TextView
+                        androdi:id="@+id/specialityTextView"
+                        androdi:layout_width="match_parent"
+                        androdi:layout_height="wrap_content"
+                        androdi:text="speciality"
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    androdi:layout_width="match_parent"
+                    androdi:layout_height="match_parent"
+                    androdi:orientation="horizontal">
+
+                    <TextView
+                        androdi:id="@+id/textView10"
+                        androdi:layout_width="120dp"
+                        androdi:layout_height="wrap_content"
+                        androdi:layout_marginLeft="15dp"
+                        androdi:text="Experience:  "
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+
+                    <TextView
+                        androdi:id="@+id/experienceTextView"
+                        androdi:layout_width="92dp"
+                        androdi:layout_height="wrap_content"
+                        androdi:text="years"
+                        androdi:textColor="#000"
+                        androdi:textSize="22sp" />
+
+                    <Button
+                        androdi:id="@+id/bookAppointment"
+                        androdi:layout_width="wrap_content"
+                        androdi:layout_gravity="end"
+                        androdi:background="@drawable/rounded_button"
+                        androdi:layout_height="wrap_content"
+                        androdi:text="Book"
+                        androdi:textSize="20sp"
+                        androdi:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            androdi:layout_width="match_parent"-->
+        <!--            androdi:layout_height="match_parent"-->
+        <!--            androdi:orientation="horizontal">-->
+
+        <!--            <ImageView-->
+        <!--                androdi:id="@+id/editIcon"-->
+        <!--                androdi:layout_width="match_parent"-->
+        <!--                androdi:layout_height="match_parent"-->
+        <!--                androdi:layout_weight="1"-->
+        <!--                app:srcCompat="@drawable/edit" />-->
+
+        <!--            <ImageView-->
+        <!--                androdi:id="@+id/deleteIcon"-->
+        <!--                androdi:layout_width="match_parent"-->
+        <!--                androdi:layout_height="match_parent"-->
+        <!--                androdi:layout_weight="1"-->
+        <!--                app:srcCompat="@drawable/cancel" />-->
+        <!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

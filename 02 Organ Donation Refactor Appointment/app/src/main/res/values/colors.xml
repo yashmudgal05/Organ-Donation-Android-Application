@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bordercolor">#5659EF</color>
+    <color name="btnbgcolor">#F8C732</color>
+    <color name="colorHomePageToolbar">#95E5EF</color>
+    <color name="question">#FB1908</color>
+    <color name="orange">#ffa500</color>
+    <color name="white">#F8F7F5</color>
+</resources>

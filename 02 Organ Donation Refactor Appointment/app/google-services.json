@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "623828971823",
+    "firebase_url": "https://organ-donation-cbae7.firebaseio.com",
+    "project_id": "organ-donation-cbae7",
+    "storage_bucket": "organ-donation-cbae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623828971823:android:be2afc8f0c8121b5edb1da",
+        "android_client_info": {
+          "package_name": "pranjal.learning.organdonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623828971823-oqg16vtbfcahu3mi38vh5qbfkptf1jdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pranjal.learning.organdonation",
+            "certificate_hash": "31f49d539dfc5f8df2da6f1fbbdafd81c45763a7"
+          }
+        },
+        {
+          "client_id": "623828971823-7cqfp1e32o9hm0qe86mji17g5f8kticl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO2kK-4wHVvlo8h8JNXvhG2F53r9DqEv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623828971823-7cqfp1e32o9hm0qe86mji17g5f8kticl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

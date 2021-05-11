@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:androdi="http://schemas.android.com/apk/res/android"
+    androdi:layout_width="match_parent"
+    androdi:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    androdi:elevation="5dp"
+    app:cardUseCompatPadding="true" >
+
+    <LinearLayout
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:id="@+id/mainLayout"
+        androdi:orientation="vertical">
+
+        <LinearLayout
+            androdi:layout_marginTop="5dp"
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView7"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Appoint Date: "
+                androdi:textColor="#24AFED"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/appointDate"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="Name"
+                androdi:textColor="#24AFED"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView8"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Time Slot:"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/timeSlot"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="Unique"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView9"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Patient Name: "
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/patient_name"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="Age"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView12"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Patient Contact: "
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/patient_contact"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="organ"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView11"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="With:"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/consultation_with"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="organ"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView13"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Doctor contact: "
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/drContact"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="organ"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            androdi:layout_marginBottom="5dp"
+            androdi:layout_width="match_parent"
+            androdi:layout_height="match_parent"
+            androdi:orientation="horizontal">
+
+            <TextView
+                androdi:id="@+id/textView14"
+                androdi:layout_width="169dp"
+                androdi:layout_height="wrap_content"
+                androdi:layout_marginLeft="15dp"
+                androdi:text="Doctor Address: "
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+
+            <TextView
+                androdi:id="@+id/doctorAddress"
+                androdi:layout_width="match_parent"
+                androdi:layout_height="wrap_content"
+                androdi:text="organ"
+                androdi:textColor="#000"
+                androdi:textSize="22sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        androdi:id="@+id/deleteAppointment"
+        androdi:layout_width="wrap_content"
+        androdi:layout_height="wrap_content"
+        androdi:background="@color/white"
+        androdi:layout_gravity="end"
+        androdi:src="@drawable/ic_baseline_cancel_24" />
+
+</androidx.cardview.widget.CardView>
